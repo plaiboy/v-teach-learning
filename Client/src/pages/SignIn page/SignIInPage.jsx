@@ -47,7 +47,7 @@ const SignInPage = () => {
             email: user.email,
             photoURL: user.photoURL,
             authPtovider: 'google',
-        });
+        })
         navigate('/')
      }
     } catch(err) {
